@@ -15,9 +15,7 @@ const CartScreen = () => {
                 </div>
 
                 {/* CART ITEMS */}
-                <div className="cart-items row mt-3">
-                    <div className="col-md-12">
-                        <div className="row">
+                <div className="cart-items row">
                             <div className="remove-button d-flex justify-content-center align-items-center col-md-1">
                                 <i className="fas fa-times"></i>
                             </div>
@@ -61,9 +59,7 @@ const CartScreen = () => {
                                 </button>
                             </div>
                         </div>
-                    </div> {/* Closing the col-md-12 */}
-                </div> {/* Closing the cart-items row */}
-            </div> {/* Closing the container */}
+            </div>
         </>
     );
 }
