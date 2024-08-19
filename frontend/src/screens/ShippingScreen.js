@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from 'antd/es/layout/layout';
 import { Link } from 'react-router-dom'; // Ensure Link is imported
 
-const ShoppingScreen = () => {
+const ShippingScreen = () => {
     window.scrollTo(0, 0);
 
     const submitHandler = (e) => { 

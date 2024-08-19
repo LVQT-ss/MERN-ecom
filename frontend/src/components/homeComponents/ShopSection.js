@@ -1,7 +1,8 @@
 import React from 'react'
 import Rating from './Rating';
 import Pagination from './Pagination';
-
+import products from '../../data/products'
+import { Link } from 'react-router-dom';
 const ShopSection = () => {
     return (
         <>
