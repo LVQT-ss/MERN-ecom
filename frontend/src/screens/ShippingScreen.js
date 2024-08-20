@@ -32,4 +32,4 @@ const ShippingScreen = () => {
     );
 }
 
-export default ShoppingScreen;
+export default ShippingScreen;
